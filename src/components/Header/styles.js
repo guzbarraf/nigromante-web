@@ -58,7 +58,7 @@ export const ContRedes = styled.div`
 
 export const ContIcoMenu = styled.div`
   position: relative;
-  top: 50%;
+  top: 60%;
   margin-top: -30px;
   width: 60px;
   min-width: 60px;

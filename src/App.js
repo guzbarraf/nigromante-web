@@ -4,7 +4,7 @@ import { Router } from '@reach/router';
 import { GlobalStyle } from './styles/GlobalStyles'
 import { GlobalFonts } from './styles/fonts';
 
-import { Header } from './components/Header';
+import Header from './components/Header';
 
 import { Home } from './pages/Home';
 import { Posiones } from './pages/Posiones';

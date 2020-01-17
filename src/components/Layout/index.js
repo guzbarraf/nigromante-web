@@ -2,8 +2,7 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import { Container } from 'bloomer';
 import { Div } from './styles';
-
-//import BackAnimation from '../BackAnimation';
+import Menu from '../Menu';
 
 export default class Layout extends Component {
   render(){
@@ -22,7 +21,7 @@ export default class Layout extends Component {
             {children}
           </Div>
         </Container>
-        { /* <BackAnimation/> */ }
+        <Menu/>
       </Fragment>
     )
   }

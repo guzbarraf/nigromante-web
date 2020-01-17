@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Svg } from './styles'
-import { Link } from '@reach/router'
 
 export const IcoMenu = props => (
-  <Link to='/' >
+  <Fragment>
     <Svg viewBox="0 0 22.627 32.527" {...props}>
       <defs>
         <style>{".prefix__cls-ico-menu{fill:none;stroke:#fff}"}</style>
@@ -36,5 +35,5 @@ export const IcoMenu = props => (
         />
       </g>
     </Svg>
-  </Link>
+  </Fragment>
 )
