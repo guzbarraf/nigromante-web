@@ -3,21 +3,16 @@ import { Helmet } from 'react-helmet';
 import { Container } from 'bloomer';
 import { Div } from './styles';
 
+//import BackAnimation from '../BackAnimation';
+
 export default class Layout extends Component {
-//export const Layout = ({ children, title, subtitle }) => {
-  constructor(props, context){
-    super(props, context);
-  }
-  componentWillMount(){
-    console.log('esto es un componentWillMount');
-  }
   render(){
     const title = this.props.title;
     const subtitle = this.props.subtitle;
     const children = this.props.children;
 
     return (
-      <div>
+      <Fragment>
         <Helmet>
           {title && <title>{title} | Nigromante Brewing</title>}
           {subtitle && <meta name='description' content={subtitle} />}
@@ -27,7 +22,8 @@ export default class Layout extends Component {
             {children}
           </Div>
         </Container>
-      </div>
+        { /* <BackAnimation/> */ }
+      </Fragment>
     )
   }
 }

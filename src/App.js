@@ -1,8 +1,6 @@
 import React from 'react';
 import { Router } from '@reach/router';
 
-
-
 import { GlobalStyle } from './styles/GlobalStyles'
 import { GlobalFonts } from './styles/fonts';
 

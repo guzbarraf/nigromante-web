@@ -5,6 +5,7 @@ export const ContLema = styled.div`
   margin-top: 20%;
   color: #FFFFFF;
   font: 50px 'Lato-Regular';
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
 `
 
 export const ContImgBeer = styled.div`
