@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Nav } from './styles'
+import { Nav, Link  } from './styles'
 
 export const NavBar = () => {
   return (
@@ -7,6 +7,7 @@ export const NavBar = () => {
       <Link to='/'>Inicio</Link>
       <Link to='/posiones'>Posiones</Link>
       <Link to='/donde'>Dónde estamos</Link>
+      <Link to='/contacto'>Contacto</Link>
     </Nav>
   )
 }

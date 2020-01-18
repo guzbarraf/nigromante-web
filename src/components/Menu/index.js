@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { GlobalStyleMenu, ContMenuMobile, ContIcoXMenu } from './styles'
+import { GlobalStyleMenu, ContMenuMobile, ContIcoXMenu, Nav, Link } from './styles'
 import { Container, Columns, Column } from 'bloomer';
 import { Logo } from '../Logo';
 import { IcoXMenu } from '../Menu/ico-x-menu';
@@ -34,7 +34,12 @@ export default class Menu extends Component {
         <Container>
           <Columns>
             <Column>
-              
+              <Nav>
+                <Link to='/'>Inicio</Link>
+                <Link to='/posiones'>Posiones</Link>
+                <Link to='/donde'>Dónde estamos</Link>
+                <Link to='/contacto'>Contacto</Link>
+              </Nav>
             </Column>
           </Columns>
         </Container>
