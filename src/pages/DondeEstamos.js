@@ -1,11 +1,16 @@
 import React from 'react'
-//import { Layout } from '../components/Layout'
+import {DondeComp} from "../components/DondeEstamos";
+import Layout from "../components/Layout";
 
 const DondeEstamosPage = () => {
   return (
-    <div>
-        Esta es la página de DondeEstamos
-    </div>
+    <Layout
+      title='Donde Estamos?'
+      subtitle='Nuestras cervezas las encuentras en...'
+      works='Nigromante Brewing se vende en, donde encuentro cerveza nigromante'
+    >
+      <DondeComp/>
+    </Layout>
   )
 }
 

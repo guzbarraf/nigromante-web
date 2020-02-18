@@ -9,6 +9,7 @@ import Header from './components/Header';
 import { Home } from './pages/Home';
 import { Posiones } from './pages/Posiones';
 import { DondeEstamos } from './pages/DondeEstamos';
+import { Contacto } from './pages/Contacto';
 import { Notfound } from './pages/NotFound'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Home path='/' />
         <Posiones path='/posiones' />
         <DondeEstamos path='/donde' />
+        <Contacto path='/contacto' />
       </Router>
     </div>
   );
