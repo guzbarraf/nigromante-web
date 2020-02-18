@@ -7,10 +7,15 @@ export const GlobalStyleMenu = createGlobalStyle`
     display: block;
   }
   .menu-hidde{
-    width: 0% !important;
+    width: 0 !important;
     display: none;
   }
-`
+  @media(min-width: 300px) and (max-width: 768px){
+    .cont-header{
+      height: 100px;    
+    }
+  }
+`;
 
 export const Svg = styled.svg`
   position: relative;
@@ -21,16 +26,17 @@ export const Svg = styled.svg`
 
 export const ContMenuMobile = styled.div`
   position: absolute;
-  width: 50%;
+  width: 0;
   height: 100vh;
   top: 0;
   background-color: #191919;
+  display: none;
   z-index: 99;
 `
 
 export const ContIcoXMenu = styled.div`
   position: relative;
-  top: 50%;
+  top: 30px;
   margin-top: -30px;
   width: 60px;
   min-width: 60px;
@@ -55,9 +61,9 @@ export const Link = styled(LinkRouter)`
   min-width: 320px;
   height: 100%;
   margin-left: 15px;
-  font-family: FTY-IRONHORSE-NCV;
+  font-family: FTY-IRONHORSE-NCV,serif;
   color: #FFFFFF;
-  text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 1);
   display: inline-flex;
   align-items: center;
   justify-content: left;
@@ -65,12 +71,12 @@ export const Link = styled(LinkRouter)`
 
   &:hover{
     color: #E30D18;
-    text-shadow: 0px 0px 8px rgba(227, 13, 24, 1);
+    text-shadow: 0 0 8px rgba(227, 13, 24, 1);
   }
   
   &[aria-current]{
     color: #E30D18;
-    text-shadow: 0px 0px 8px rgba(227, 13, 24, 1);
+    text-shadow: 0 0 8px rgba(227, 13, 24, 1);
   }
 
   @media (min-width: 320px) and (max-width: 1768px){

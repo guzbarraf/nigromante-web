@@ -1,20 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
-
-export const GlobalStyleHeader = createGlobalStyle`
-  @media (max-width: 1023px){
-    .columns-responsive{
-      
-    }
-    .no-display-mobile{
-      display: none;
-    }
-  }
-  @media (min-width: 1024px){
-    .no-display-desk{
-      display: none;
-    }
-  }
-`
+import styled  from 'styled-components'
 
 export const ContHeader = styled.div`
   position: relative;
@@ -26,7 +10,15 @@ export const ContLogo = styled.div`
   position: relative;
   width: 120px;
   height: 120px;
-
+  
+  @media(min-width: 300px) and (max-width: 768px){
+    width: 80px !important;
+    height: 80px !important;
+  }
+  @media (max-width: 768px){
+    width: 120px;
+    height: 120px;
+  }
   @media (max-width: 1023px){
     left: 15px;
   }
@@ -58,13 +50,12 @@ export const ContRedes = styled.div`
 
 export const ContIcoMenu = styled.div`
   position: relative;
-  top: 60%;
-  margin-top: -30px;
+  top: 20px;
   width: 60px;
   min-width: 60px;
-  height: 40px;
+  height: 35px;
   float: right;
-  right: 15px;
+  right: 0px;
 
   @media (min-width: 1024px){
     display: none;

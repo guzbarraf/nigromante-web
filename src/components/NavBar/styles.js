@@ -9,16 +9,17 @@ export const Nav = styled.nav`
   background: transparent;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   z-index: 1000;
 `
 
 export const Link = styled(LinkRouter)`
-  width: 100%;
+  width: auto;
   height: 100%;
+  margin: 0 15px;
   font: 30px FTY-IRONHORSE-NCV;
   color: #FFFFFF;
-  text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -26,11 +27,11 @@ export const Link = styled(LinkRouter)`
 
   &:hover{
     color: #E30D18;
-    text-shadow: 0px 0px 8px rgba(227, 13, 24, 1);
+    text-shadow: 0 0 8px rgba(227, 13, 24, 1);
   }
   
   &[aria-current]{
     color: #E30D18;
-    text-shadow: 0px 0px 8px rgba(227, 13, 24, 1);
+    text-shadow: 0 0 8px rgba(227, 13, 24, 1);
   }
 `

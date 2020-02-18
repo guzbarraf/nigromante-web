@@ -27,11 +27,6 @@ export const GlobalStyle = createGlobalStyle`
   .wrapper{
     height: 100%;
   }
-  .wrapper-pages{
-    position: relative;
-    height: calc(100vh - 132px);
-    bottom: 0;
-  }
 
   #app {
     box-shadow: 0 0 10px rgba(0, 0, 0, .05);
@@ -46,13 +41,38 @@ export const GlobalStyle = createGlobalStyle`
   .columns:not(:last-child) {
     margin-bottom: 0 !important;
   }
-
-  .cont-home{
-    height: calc(100vh - 148px);
-  }
-  .cont-home > .column{
-    height: 100%;
-    overflow: hidden;
+  .overflow-unset{
+    overflow: unset !important;
   }
 
+  @media(min-width: 300px) and (max-width: 1024px){
+    .columns {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    .columns:last-child {
+      margin-bottom: 0;
+    }
+  }
+  @media(max-width: 768px){
+    .column.is-5-mobile,
+    .column.is-6-mobile{
+      padding-top: .75rem;
+      float: left;
+    }
+  }
+  
+  @media (max-width: 1023px){
+    .columns-responsive{
+      
+    }
+    .no-display-mobile{
+      display: none;
+    }
+  }
+  @media (min-width: 1024px){
+    .no-display-desk{
+      display: none;
+    }
+  }
 `

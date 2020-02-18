@@ -11,7 +11,7 @@ export default class Menu extends Component {
     el.classList.remove("menu-show");
     el.classList.add("menu-hidde");
     console.log('handleMenuClose')
-  }
+  };
 
   render(){
     return (

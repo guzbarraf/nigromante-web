@@ -1,7 +1,7 @@
-import React, { Fragment, Component } from 'react';
+import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import { Container } from 'bloomer';
-import { Div } from './styles';
+import { GlobalStyleLayout, Div } from './styles';
 import Menu from '../Menu';
 
 export default class Layout extends Component {
@@ -11,7 +11,8 @@ export default class Layout extends Component {
     const children = this.props.children;
 
     return (
-      <Fragment>
+      <div className="layout">
+        <GlobalStyleLayout/>
         <Helmet>
           {title && <title>{title} | Nigromante Brewing</title>}
           {subtitle && <meta name='description' content={subtitle} />}
@@ -22,7 +23,7 @@ export default class Layout extends Component {
           </Div>
         </Container>
         <Menu/>
-      </Fragment>
+      </div>
     )
   }
 }
