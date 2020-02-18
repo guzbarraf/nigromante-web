@@ -3,6 +3,9 @@ import styled, {createGlobalStyle} from 'styled-components'
 export const GlobalStyleLayout = createGlobalStyle`
   .layout{
     /*contain: content;*/
+    @media(min-width: 1024px){
+      contain: content;
+    }
   }
   .wrapper-pages{
     position: relative;

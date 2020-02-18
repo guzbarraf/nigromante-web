@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Columns, Column } from 'bloomer';
 import { GlobalStyleHome, ContLema, ContImgBeer, ImgBeer, ContImgHops, ImgHops, ContImgMalt, ImgMalt } from './styles';
 import Huna from '../../assets/huna-hop.png';

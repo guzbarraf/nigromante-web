@@ -3,6 +3,9 @@ import styled, {createGlobalStyle} from 'styled-components'
 export const GlobalStyleHome = createGlobalStyle`
   .home{
     contain: content;
+    @media(min-width: 1024px){
+      contain: unset;
+    }
   }
   .cont-home{
     height: calc(100vh - 148px);
@@ -39,13 +42,32 @@ export const ContLema = styled.div`
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
   }
   @media (min-width: 769px) and (max-width: 1023px){
-    margin-top: 0%;
-    width: 65%;
-    font: 32px 'Lato-Regular';
-    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    margin-top: 20%;
+    width: 160%;
+    left: 5%;
+    font: 42px 'Lato-Regular';
+    text-shadow: 0px 0px 10px rgba(255,255,255,1);
   }
   @media(min-width: 1024px) and (max-width: 1215px){
-    width: 150%;
+    margin-top: 5%;
+    width: 160%;
+    left: 5%;
+    font: 52px 'Lato-Regular';
+    text-shadow: 0px 0px 10px rgba(255,255,255,1);
+  }
+  @media(min-width: 1216px) and (max-width: 1407px){
+    margin-top: 5%;
+    width: 130%;
+    left: 5%;
+    font: 52px 'Lato-Regular';
+    text-shadow: 0px 0px 10px rgba(255,255,255,1);
+  }
+  @media(min-width: 1408px){
+    margin-top: 5%;
+    width: 110%;
+    left: 5%;
+    font: 52px 'Lato-Regular';
+    text-shadow: 0px 0px 10px rgba(255,255,255,1);
   }
 `
 
@@ -70,7 +92,14 @@ export const ContImgBeer = styled.div`
   @media(min-width: 769px) and (max-width: 1023px){
     position: absolute;
     width: auto;
-    height: 60%;
+    height: 65%;
+    top: auto;
+    bottom: 0;
+  }
+  @media(min-width: 1024px) and (max-width: 1215px){
+    position: absolute;
+    width: 52%;
+    height: auto;
     top: auto;
     bottom: 0;
   }
@@ -101,14 +130,24 @@ export const ContImgHops = styled.div`
     left: 30%;
   }
   @media(min-width: 769px) and (max-width: 1023px){
-    width: 60%;
+    width: 65%;
     height: auto;
-    left: 30%;
+    left: 0%;
   }
   @media(min-width: 1024px) and (max-width: 1215px){
     width: 70%;
     height: auto;
     left: 0%;
+  }
+  @media(min-width: 1216px) and (max-width: 1407px){
+    width: 700px;
+    height: auto;
+    left: 5%;
+  }
+  @media(min-width: 1408px){
+    width: 700px;
+    height: auto;
+    left: 10%;
   }
 `
 
@@ -132,16 +171,28 @@ export const ContImgMalt = styled.div`
     bottom: 30%;
   }
   @media(min-width: 769px) and (max-width: 1023px){
-    width: 50%;
+    width: 60%;
     height: auto;
     left: 60%;
-    bottom: 25%;
+    bottom: 30%;
   }
   @media(min-width: 1024px) and (max-width: 1215px){
     width: 60%;
     height: auto;
-    left: 0%;
-    bottom: 20%;
+    left: 60%;
+    bottom: 30%;
+  }
+  @media(min-width: 1216px) and (max-width: 1407px){
+    width: 40%;
+    height: auto;
+    left: 70%;
+    bottom: 40%;
+  }
+  @media(min-width: 1408px){
+    width: 35%;
+    height: auto;
+    left: 70%;
+    bottom: 40%;
   }
 `
 
