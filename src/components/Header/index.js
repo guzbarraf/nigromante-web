@@ -5,7 +5,7 @@ import { Logo } from '../Logo';
 import { NavBar } from '../NavBar';
 import { Redes } from '../Redes';
 
-import { IcoMenu } from '../Menu/ico-menu';
+import NavFullscreenOverlay from "../NavFullscreenOverlay";
 
 export default class Header extends Component {
 //export const Header = () => {
@@ -13,24 +13,8 @@ export default class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showMenu: false
-    }
-  }
 
-  handleMenu = () => {
-    /*this.setState(prevState => ({
-      showMenu: !prevState.showMenu
-    }));
-    let cls = this.state.showMenu ? "menu-show" : "menu-hidde";
-    let el = document.getElementById('ContMenuMobile');
-    el.classList.remove("menu-show");
-    el.classList.remove("menu-hidde");
-    el.classList.add(cls);
-    console.log(`State showMenu => ${this.state.showMenu}`);*/
-    let el = document.getElementById('ContMenuMobile');
-    el.classList.remove("menu-hidde");
-    el.classList.add("menu-show");
-    console.log('handleMenu')
+    }
   }
 
   render(){
@@ -57,7 +41,7 @@ export default class Header extends Component {
           </Column>
           <Column isSize={{ mobile: 6, tablet: 6 }} className="no-display-desk">
             <ContIcoMenu>
-              <IcoMenu onClick={this.handleMenu} />
+              <NavFullscreenOverlay />
             </ContIcoMenu>
           </Column>
         </Columns>

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Svg } from './styles'
+import { Svg } from './styles-ico-menu'
 
 export const IcoMenu = props => (
   <Fragment>

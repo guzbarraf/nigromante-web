@@ -34,7 +34,10 @@ export const GlobalStyle = createGlobalStyle`
     min-height: 100vh;
     padding-bottom: 10px;
   }
-
+  
+  .container{
+    overflow: auto;
+  }
   .columns {
     margin-top: 0 !important;
   }

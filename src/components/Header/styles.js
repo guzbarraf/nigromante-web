@@ -61,8 +61,3 @@ export const ContIcoMenu = styled.div`
     display: none;
   }
 `
-
-export const IcoMenu = styled.div`
-  width: 100%;
-  height: 100%;
-`
