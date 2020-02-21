@@ -1,5 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { Link as LinkRouter } from '@reach/router'
+import { Container as ContainerStyled } from 'bloomer'
 
 export const GlobalStyleNavFullscreen = createGlobalStyle`
   #nav-fullscreen{
@@ -52,6 +53,10 @@ export const GlobalStyleNavFullscreen = createGlobalStyle`
       right: 35px;
     }
   }  
+`
+
+export const ContainerNavFullScreen = styled(ContainerStyled)`
+  overflow: auto;
 `
 
 export const ContIcoCloseMenu = styled.div`

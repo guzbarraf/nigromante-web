@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Container, Columns, Column } from 'bloomer';
-import { GlobalStyleNavFullscreen, Nav, Link } from "./styles";
+import {GlobalStyleNavFullscreen, ContainerNavFullScreen, Nav, Link} from "./styles";
 
 import { Logo } from '../Logo/index';
 
@@ -52,7 +52,7 @@ export default class NavFullscreenOverlay extends Component {
         <IcoMenu onClick={this.handleMenu}/>
 
         <div id="nav-fullscreen" className="nav-fullscreen-hidden">
-          <Container className="cont-nav-fullscreen">
+          <ContainerNavFullScreen className="cont-nav-fullscreen">
             <Columns className="columns-responsive">
               <Column isSize={{mobile: 6, tablet: 6, desktop: 6, widescreen: 6 }}>
                 <ContLogo>
@@ -65,8 +65,8 @@ export default class NavFullscreenOverlay extends Component {
                 </ContIcoCloseMenu>
               </Column>
             </Columns>
-          </Container>
-          <Container className="cont-nav-fullscreen">
+          </ContainerNavFullScreen>
+          <ContainerNavFullScreen className="cont-nav-fullscreen">
             <Columns className="columns-responsive">
               <Column isSize={{mobile: 6, tablet: 6, desktop: 6, widescreen: 6 }}>
                 <Nav>
@@ -80,7 +80,7 @@ export default class NavFullscreenOverlay extends Component {
 
               </Column>
             </Columns>
-          </Container>
+          </ContainerNavFullScreen>
         </div>
       </Fragment>
     )

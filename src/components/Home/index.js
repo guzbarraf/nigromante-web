@@ -1,7 +1,7 @@
 import React from 'react';
 import { Columns, Column } from 'bloomer';
 import { GlobalStyleHome, ContLema, ContImgBeer, ImgBeer, ContImgHops, ImgHops, ContImgMalt, ImgMalt } from './styles';
-import Huna from '../../assets/huna-hop.png';
+import Huna from '../../assets/beers/huna-hop.png';
 import Hops from '../../assets/hops.png';
 import Malt from '../../assets/malta.png';
 
@@ -18,6 +18,7 @@ export const HomeComp = () => {
         <Column isSize={{mobile: 12, desktop: "1/2" }}>
           <ContImgBeer>
             <ImgBeer src={Huna} />
+
           </ContImgBeer>
         </Column>
       </Columns>

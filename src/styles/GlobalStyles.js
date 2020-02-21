@@ -1,9 +1,10 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #191919;
   }
 
   *, *:before, *:after {
@@ -18,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100vh;
     margin: 0 auto;
+    color: #FFFFFF;
     background: #191919;
     overscroll-behavior: none;
   }
@@ -35,9 +37,6 @@ export const GlobalStyle = createGlobalStyle`
     padding-bottom: 10px;
   }
   
-  .container{
-    overflow: auto;
-  }
   .columns {
     margin-top: 0 !important;
   }
@@ -47,7 +46,7 @@ export const GlobalStyle = createGlobalStyle`
   .overflow-unset{
     overflow: unset !important;
   }
-
+  
   @media(min-width: 300px) and (max-width: 1024px){
     .columns {
       margin-left: 0 !important;
@@ -77,5 +76,21 @@ export const GlobalStyle = createGlobalStyle`
     .no-display-desk{
       display: none;
     }
+  }
+`
+
+export const TextTitle = styled.div`
+  position: absolute;
+  font: 150px FTYIRONHORSENCV;
+  color: #FFFFFF;
+  opacity: 0.1;
+  
+  @media(min-width: 300px) and (max-width: 767px){
+    left: 30px;
+    font: 80px FTYIRONHORSENCV;
+  }
+  @media(min-width: 768px) and (max-width: 1024px){
+    left: 30px;
+    font: 100px FTYIRONHORSENCV;
   }
 `
