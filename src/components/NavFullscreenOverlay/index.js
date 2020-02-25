@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Container, Columns, Column } from 'bloomer';
+import { Columns, Column } from 'bloomer';
 import {GlobalStyleNavFullscreen, ContainerNavFullScreen, Nav, Link} from "./styles";
 
 import { Logo } from '../Logo/index';
@@ -71,7 +71,7 @@ export default class NavFullscreenOverlay extends Component {
               <Column isSize={{mobile: 6, tablet: 6, desktop: 6, widescreen: 6 }}>
                 <Nav>
                   <Link to="/" onClick={() => this.handleMenu()}>Inicio</Link>
-                  <Link to="/posiones" onClick={() => this.handleMenu()}>Posiones</Link>
+                  <Link to="/cervezas" onClick={() => this.handleMenu()}>Posiones</Link>
                   <Link to="/donde" onClick={() => this.handleMenu()}>Donde Estamos</Link>
                   <Link to="/contacto" onClick={() => this.handleMenu()}>Contacto</Link>
                 </Nav>

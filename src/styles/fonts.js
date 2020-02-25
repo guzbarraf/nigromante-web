@@ -3,16 +3,16 @@ import '../fonts/Lato-Regular.ttf';
 
 export const GlobalFonts = createGlobalStyle`
   @font-face {
-      font-family: 'Lato-Regular';
-      src: url('Lato-Regular.eot');
-      src: local('Lato Regular'), local('Lato-Regular'),
-          url('Lato-Regular.eot?#iefix') format('embedded-opentype'),
-          url('Lato-Regular.woff2') format('woff2'),
-          url('Lato-Regular.woff') format('woff'),
-          url('Lato-Regular.ttf') format('truetype'),
-          url('Lato-Regular.svg#Lato-Regular') format('svg');
-      font-weight: normal;
-      font-style: normal;
+    font-family: 'Lato-Regular';
+    src: url('Lato-Regular.eot');
+    src: local('Lato Regular'), local('Lato-Regular'),
+        url('Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Regular.woff2') format('woff2'),
+        url('Lato-Regular.woff') format('woff'),
+        url('Lato-Regular.ttf') format('truetype'),
+        url('Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
   }
   @font-face {
     font-family: 'Lato-Bold';
@@ -28,16 +28,16 @@ export const GlobalFonts = createGlobalStyle`
   }
 
   @font-face {
-      font-family: 'Lato-Black';
-      src: url('Lato-Black.eot');
-      src: local('Lato Black'), local('Lato-Black'),
-          url('Lato-Black.eot?#iefix') format('embedded-opentype'),
-          url('Lato-Black.woff2') format('woff2'),
-          url('Lato-Black.woff') format('woff'),
-          url('Lato-Black.ttf') format('truetype'),
-          url('Lato-Black.svg#Lato-Black') format('svg');
-      font-weight: 900;
-      font-style: normal;
+    font-family: 'Lato-Black';
+    src: url('Lato-Black.eot');
+    src: local('Lato Black'), local('Lato-Black'),
+        url('Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Black.woff2') format('woff2'),
+        url('Lato-Black.woff') format('woff'),
+        url('Lato-Black.ttf') format('truetype'),
+        url('Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
   }
   @font-face {
     font-family: 'FTY-IRONHORSE-NCV';

@@ -1,0 +1,45 @@
+[
+  {
+    "ahypihey":[
+      {
+        "id": 1,
+        "name": "Ahypihey",
+        "style": "American IPA",
+        "img": "ahypihey.png",
+        "url": "ahypihey",
+        "ibus": "56",
+        "abv": "5.6",
+        "srm": "2.6",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod metus sed malesuada pellentesque. Etiam ac erat vulputate, blandit ante vel, sollicitudin risus. Sed suscipit eleifend viverra. Aliquam erat volutpat. Nullam ac leo a nisi finibus auctor quis at ex. Mauris ut quam massa. Mauris a congue lacus. Sed porta, augue at iaculis commodo, odio felis suscipit orci, ac dignissim urna est a nunc. Nam ullamcorper nunc ut justo blandit dignissim. Praesent eget velit tincidunt, ultrices nisl a, pulvinar ipsum. Nullam feugiat ex non lorem elementum pulvinar. Mauris vel elementum odio, ac commodo sapien."
+      }
+    ]
+  },{
+    "huna-hop": [
+      {
+        "id": 2,
+        "name": "Huna Hop",
+        "style": "Doble IPA",
+        "img": "huna-hop.png",
+        "url": "huna-hop",
+        "ibus": "56",
+        "abv": "5.6",
+        "srm": "2.6",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod metus sed malesuada pellentesque. Etiam ac erat vulputate, blandit ante vel, sollicitudin risus. Sed suscipit eleifend viverra. Aliquam erat volutpat. Nullam ac leo a nisi finibus auctor quis at ex. Mauris ut quam massa. Mauris a congue lacus. Sed porta, augue at iaculis commodo, odio felis suscipit orci, ac dignissim urna est a nunc. Nam ullamcorper nunc ut justo blandit dignissim. Praesent eget velit tincidunt, ultrices nisl a, pulvinar ipsum. Nullam feugiat ex non lorem elementum pulvinar. Mauris vel elementum odio, ac commodo sapien."
+      }
+    ]
+  },{
+    "maestro-diablero": [
+      {
+        "id": 3,
+        "name": "Maestro Diablero",
+        "style": "Imperial Stout",
+        "img": "maestro-diablero.png",
+        "url": "maestro-diablero",
+        "ibus": "56",
+        "abv": "5.6",
+        "srm": "2.6",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod metus sed malesuada pellentesque. Etiam ac erat vulputate, blandit ante vel, sollicitudin risus. Sed suscipit eleifend viverra. Aliquam erat volutpat. Nullam ac leo a nisi finibus auctor quis at ex. Mauris ut quam massa. Mauris a congue lacus. Sed porta, augue at iaculis commodo, odio felis suscipit orci, ac dignissim urna est a nunc. Nam ullamcorper nunc ut justo blandit dignissim. Praesent eget velit tincidunt, ultrices nisl a, pulvinar ipsum. Nullam feugiat ex non lorem elementum pulvinar. Mauris vel elementum odio, ac commodo sapien."
+      }
+    ]
+  }
+]

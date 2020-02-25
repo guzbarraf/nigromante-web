@@ -1,7 +1,7 @@
 import styled, {createGlobalStyle} from 'styled-components'
 
-export const GlobalStylePoisons = createGlobalStyle`
-  .poisons{
+export const GlobalStyleCervezas = createGlobalStyle`
+  .cervezas{
     contain: content;
     
     @media(min-width: 300px) and (max-width: 1024px){
@@ -11,7 +11,7 @@ export const GlobalStylePoisons = createGlobalStyle`
       contain: unset;
     }
   }
-  .cont-poisons{
+  .cont-cervezas{
     position: relative;
     padding-top: 50px;
     
@@ -50,13 +50,16 @@ export const ImgBeer = styled.img`
   }
 `
 
-export const TitleBeer = styled.div`
+export const TitleBeer = styled.h1`
   position: relative;
   text-align: center;
   color: #FFFFFF;
-  font: 24px FTYIRONHORSENCV;
+  font: 40px FTYIRONHORSENCV;
   
-  @media(min-width: 300px) and (max-width: 1024px){
+  @media(min-width: 300px) and (max-width: 1023px){
     font: 60px FTYIRONHORSENCV;
+  }
+  @media(min-width: 1024px) and (max-width: 1215px){
+    font: 30px FTYIRONHORSENCV;
   }
 `
