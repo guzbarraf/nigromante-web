@@ -35,7 +35,9 @@ export const TitleBeer = styled.div`
   text-align: center;
   
   @media(min-width: 300px) and (max-width: 1023px){
-    font: 60px FTYIRONHORSENCV;
+    width: 40%;
+    font: 80px FTYIRONHORSENCV;
+    text-align: left;
   }
   @media(min-width: 1024px) and (max-width: 1215px){
     font: 200px FTYIRONHORSENCV;
@@ -51,8 +53,11 @@ export const ContBeer = styled.div`
   justify-content: center;
   vertical-align: center;
   
-  @media(min-width: 300px) and (max-width: 1024px){
-    padding-top: 50px;
+  @media(min-width: 300px) and (max-width: 1023px){
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    justify-content: flex-end;
   }
 `
 
@@ -74,6 +79,11 @@ export const LabelNumberBeer = styled.div`
   color: #FFFFFF;
   text-align: center;
   opacity: 0.1;
+  
+  @media(min-width: 300px) and (max-width: 1024px){
+    margin-top: -45%;
+    text-align: left;
+  }
 `
 export const LabelTitle = styled.div`
   position: relative;
@@ -93,17 +103,31 @@ export const NameBeer = styled.h1`
   margin-bottom: 15px;
   font: 38px FTYIRONHORSENCV;
   color: #FFFFFF;
+  
+  @media(min-width: 300px) and (max-width: 1023px){
+    font: 42px FTYIRONHORSENCV;
+  }
 `
 export const TextDesc = styled.div`
   position: relative;
   font: 24px Lato-Regular;
   color: #FFFFFF;
+  
+  @media(min-width: 300px) and (max-width: 1023px){
+    font: 18px Lato-Regular;
+  }
 `
 
 export const BeerDetails = styled.div`
   position: relative;
   border-top: 1px solid #E30D18;
   border-bottom: 1px solid #E30D18;
+  
+  .columns{
+    @media(min-width: 300px) and (max-width: 1023px){
+      display: flex;
+    }
+  }
 `
 
 export const BeerDetailsLabel = styled.div`
@@ -124,6 +148,16 @@ export const BeerDetailsTextGlass = styled.div`
   font: 18px Lato-Bold;
   color: #FFFFFF;
   text-align: center;
+`
+
+export const BeerDetailsAvailable = styled.div`
+  position: relative;
+  
+  .columns{
+    @media(min-width: 300px) and (max-width: 1023px){
+      display: flex;
+    }
+  }
 `
 
 export const ContImgAvailable = styled.div`
@@ -176,6 +210,11 @@ export const BeerTastingText = styled.div`
 export const ImgPairing = styled.img`
   width: 100%;
   height: auto;
+  
+  @media(min-width: 300px) and (max-width: 1023px){
+    width: 100%;
+    height: auto;
+  }
 `
 export const LabelPairing = styled.div`
   margin-top: 15px;

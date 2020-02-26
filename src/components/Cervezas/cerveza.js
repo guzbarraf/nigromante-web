@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Columns, Column } from 'bloomer';
-import { GlobalStyleCerveza, ContBeer, ImgBeer, TitleBeer, LabelTitle, IcoDesc, NameBeer, TextDesc, BeerDetails, BeerDetailsLabel, BeerDetailsText, BeerDetailsTextGlass, ContImgAvailable, ContImgGlass, ImgAvailable, ImgGlass, BeerTastingLabel, BeerTastingText, ImgPairing,LabelPairing, LabelNumberBeer } from './styles-cerveza';
+import { GlobalStyleCerveza, ContBeer, ImgBeer, TitleBeer, LabelTitle, IcoDesc, NameBeer, TextDesc, BeerDetails, BeerDetailsLabel, BeerDetailsText, BeerDetailsTextGlass, BeerDetailsAvailable, ContImgAvailable, ContImgGlass, ImgAvailable, ImgGlass, BeerTastingLabel, BeerTastingText, ImgPairing,LabelPairing, LabelNumberBeer } from './styles-cerveza';
 import { SlideItemComp } from '../SlideItems'
 
 const useBeerData = (idBeer) => {
@@ -148,7 +148,7 @@ export const CervezaComp = ( { idBeer } ) => {
         </Column>
         <Column isSize={{mobile: 12, tablet: 12, desktop: 6 }}>
           <BeerDetails>
-            <Columns>
+            <Columns isCentered>
               <Column isSize={{mobile: 4, tablet: 4, desktop: 4 }}>
                 <BeerDetailsLabel>Estilo</BeerDetailsLabel>
                 <BeerDetailsText>{ beer.style }</BeerDetailsText>
@@ -163,18 +163,20 @@ export const CervezaComp = ( { idBeer } ) => {
               </Column>
             </Columns>
           </BeerDetails>
-          <Columns>
-            <Column isSize={{mobile: 6, tablet: 6, desktop: 6 }}>
-              <BeerDetailsLabel>Disponible</BeerDetailsLabel>
-              <ContImgAvailable>{ available }</ContImgAvailable>
-              <BeerDetailsText>{ beer.available_size }</BeerDetailsText>
-            </Column>
-            <Column isSize={{mobile: 6, tablet: 6, desktop: 6 }}>
-              <BeerDetailsLabel>Sírvase en</BeerDetailsLabel>
-              <ContImgGlass>{ glass }</ContImgGlass>
-              <BeerDetailsTextGlass>{ beer.glass_name }</BeerDetailsTextGlass>
-            </Column>
-          </Columns>
+          <BeerDetailsAvailable>
+            <Columns>
+              <Column isSize={{mobile: 6, tablet: 6, desktop: 6 }}>
+                <BeerDetailsLabel>Disponible</BeerDetailsLabel>
+                <ContImgAvailable>{ available }</ContImgAvailable>
+                <BeerDetailsText>{ beer.available_size }</BeerDetailsText>
+              </Column>
+              <Column isSize={{mobile: 6, tablet: 6, desktop: 6 }}>
+                <BeerDetailsLabel>Sírvase en</BeerDetailsLabel>
+                <ContImgGlass>{ glass }</ContImgGlass>
+                <BeerDetailsTextGlass>{ beer.glass_name }</BeerDetailsTextGlass>
+              </Column>
+            </Columns>
+          </BeerDetailsAvailable>
         </Column>
       </Columns>
 

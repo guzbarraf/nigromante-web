@@ -1,5 +1,5 @@
 import styled, {createGlobalStyle} from 'styled-components'
-
+import { Link as LinkRouter } from "@reach/router";
 
 export const GlobalStyleSlide = createGlobalStyle`
   
@@ -12,12 +12,36 @@ export const Slide = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  @media(min-width: 300px) and (max-width: 1023px){
+    top: 100%;
+    left: 0;
+  }
+  @media(min-width: 1024px) and (max-width: 1215px){
+    
+  }
 `
 
 export const ContBtnsSlide = styled.div`
   width: 50%;
   display: flex;
+  
+  @media(min-width: 300px) and (max-width: 1023px){
+    position: absolute;
+    justify-content: flex-end;
+  }
 `
+
+export const Link = styled(LinkRouter)`
+  color: #FFFFFF;
+  text-decoration: none;
+  
+  &hover{
+    color: #FFFFFF;
+  }
+`
+
+
 
 export const BtnSlide = styled.div`
   position: relative;
@@ -50,4 +74,12 @@ export const Linea = styled.div`
   right: 42%;
   background-color: #E30D18;
   box-shadow: 0 0 8px rgba(227, 13, 24, 1);
+  
+  
+  @media(min-width: 300px) and (max-width: 1023px){
+    width: 100%;
+    right: 50%;
+  }
+  
+  
 `

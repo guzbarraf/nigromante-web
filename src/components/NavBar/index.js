@@ -8,9 +8,6 @@ export const NavBar = () => {
       <Link to='/cervezas'>Posiones</Link>
       <Link to='/donde'>Dónde estamos</Link>
       <Link to='/contacto'>Contacto</Link>
-      <Link to='/cerveza/ahypihey'>Ahypihey</Link>
-      <Link to='/cerveza/huna-hop'>Huna</Link>
-      <Link to='/cerveza/maestro-diablero'>Maestro</Link>
     </Nav>
   )
 }
