@@ -29,7 +29,11 @@ export const GlobalStyle = createGlobalStyle`
   .wrapper{
     height: 100%;
   }
-
+  
+  .alto-100{
+    height: 100%;
+  }
+  
   #app {
     box-shadow: 0 0 10px rgba(0, 0, 0, .05);
     overflow-x: hidden;
@@ -81,16 +85,16 @@ export const GlobalStyle = createGlobalStyle`
 
 export const TextTitle = styled.div`
   position: absolute;
-  font: 150px FTYIRONHORSENCV;
+  font: 150px FTY-IRONHORSE-NCV;
   color: #FFFFFF;
   opacity: 0.1;
   
   @media(min-width: 300px) and (max-width: 767px){
     left: 30px;
-    font: 80px FTYIRONHORSENCV;
+    font: 80px FTY-IRONHORSE-NCV;
   }
   @media(min-width: 768px) and (max-width: 1024px){
     left: 30px;
-    font: 100px FTYIRONHORSENCV;
+    font: 100px FTY-IRONHORSE-NCV;
   }
 `

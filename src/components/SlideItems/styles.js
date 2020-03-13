@@ -8,12 +8,17 @@ export const Slide = styled.div`
   position: absolute;
   width: 100%;
   top: 73%;
-  left: 88%;
+  left: 86.5%;
   display: flex;
   align-items: center;
   justify-content: center;
   
-  @media(min-width: 300px) and (max-width: 1023px){
+  @media(min-width: 300px) and (max-width: 767px){
+    top: 100%;
+    left: 0;
+  }
+  @media(min-width: 768px) and (max-width: 1023px){
+    width: 45%;
     top: 100%;
     left: 0;
   }
@@ -26,8 +31,13 @@ export const ContBtnsSlide = styled.div`
   width: 50%;
   display: flex;
   
-  @media(min-width: 300px) and (max-width: 1023px){
+  @media(min-width: 300px) and (max-width: 767px){
     position: absolute;
+    justify-content: flex-end;
+  }
+  @media(min-width: 768px) and (max-width: 1023px){
+    position: absolute;
+    width: 50%;
     justify-content: flex-end;
   }
 `

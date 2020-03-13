@@ -54,12 +54,12 @@ export const TitleBeer = styled.h1`
   position: relative;
   text-align: center;
   color: #FFFFFF;
-  font: 40px FTYIRONHORSENCV;
+  font: 40px FTY-IRONHORSE-NCV;
   
   @media(min-width: 300px) and (max-width: 1023px){
-    font: 60px FTYIRONHORSENCV;
+    font: 60px FTY-IRONHORSE-NCV;
   }
   @media(min-width: 1024px) and (max-width: 1215px){
-    font: 30px FTYIRONHORSENCV;
+    font: 30px FTY-IRONHORSE-NCV;
   }
 `

@@ -27,7 +27,7 @@ export const GlobalStyleNavFullscreen = createGlobalStyle`
   
   #nav-fullscreen a {
     text-decoration: none;
-    font-size: 36px;
+    
     color: #FFFFFF;
     display: block;
     transition: 0.3s;
@@ -107,13 +107,14 @@ export const Link = styled(LinkRouter)`
     text-shadow: 0 0 8px rgba(227, 13, 24, 1);
   }
 
-  @media (min-width: 320px) and (max-width: 768px){
-    font-size: 50px;
+  @media (min-width: 320px) and (max-width: 767px){
+    font: 50px FTY-IRONHORSE-NCV;
     line-height: 60px;
   }
-  @media (min-width: 769px) and (max-width: 1024px){
-    font-size: 60px;
-    line-height: 70px;
+  @media (min-width: 768px) and (max-width: 1024px){
+    width: 500px;
+    font: 80px FTY-IRONHORSE-NCV;
+    line-height: 100px;
   }
 `
 

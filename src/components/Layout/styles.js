@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle} from 'styled-components'
+import {createGlobalStyle} from 'styled-components'
 
 export const GlobalStyleLayout = createGlobalStyle`
   .layout{
@@ -16,8 +16,4 @@ export const GlobalStyleLayout = createGlobalStyle`
       height: calc(100vh - 144px);
     }
   }
-`
-
-export const Div = styled.div`
-  /*padding-top: 16px;*/
 `

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import { Container } from 'bloomer';
-import { GlobalStyleLayout, Div } from './styles';
+import { GlobalStyleLayout } from './styles';
 import Menu from '../Menu';
 
 export default class Layout extends Component {
@@ -18,9 +18,7 @@ export default class Layout extends Component {
           {subtitle && <meta name='description' content={subtitle} />}
         </Helmet>
         <Container className="wrapper-pages">
-          <Div>
-            {children}
-          </Div>
+          {children}
         </Container>
         <Menu/>
       </div>

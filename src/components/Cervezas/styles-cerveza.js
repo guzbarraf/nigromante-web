@@ -30,17 +30,22 @@ export const TitleBeer = styled.div`
   width: 350px;
   top: 50px;
   color: #FFFFFF;
-  font: 200px FTYIRONHORSENCV;
+  font: 200px FTY-IRONHORSE-NCV;
   text-shadow: 0 0 8px rgba(255,255,255,1);
   text-align: center;
   
-  @media(min-width: 300px) and (max-width: 1023px){
+  @media(min-width: 300px) and (max-width: 767px){
     width: 40%;
-    font: 80px FTYIRONHORSENCV;
+    font: 80px FTY-IRONHORSE-NCV;
+    text-align: left;
+  }
+  @media(min-width: 768px) and (max-width: 1023px){
+    width: 50%;
+    font: 150px FTY-IRONHORSE-NCV;
     text-align: left;
   }
   @media(min-width: 1024px) and (max-width: 1215px){
-    font: 200px FTYIRONHORSENCV;
+    font: 200px FTY-IRONHORSE-NCV;
   }
 `
 
@@ -67,45 +72,53 @@ export const ImgBeer = styled.img`
   
   @media(min-width: 300px) and (max-width: 767px){
     width: 70%;
+    height: 70%;
   }
   @media(min-width: 768px) and (max-width: 1024px){
     width: 50%;
+    height: 50%;
   }
 `
 export const LabelNumberBeer = styled.div`
   position: relative;
   top: 80%;
-  font: 150px FTYIRONHORSENCV;
+  font: 150px FTY-IRONHORSE-NCV;
   color: #FFFFFF;
-  text-align: center;
+  text-align: left;
   opacity: 0.1;
   
-  @media(min-width: 300px) and (max-width: 1024px){
+  @media(min-width: 300px) and (max-width: 767px){
     margin-top: -45%;
     text-align: left;
+  }
+  @media(min-width: 768px) and (max-width: 1023px){
+    margin-left: 18%;
+    margin-top: -26%;
+    text-align: left;
+    font: 180px FTY-IRONHORSE-NCV;
   }
 `
 export const LabelTitle = styled.div`
   position: relative;
   margin-top: 50px;
-  font: 60px FTYIRONHORSENCV;
+  font: 60px FTY-IRONHORSE-NCV;
   color: #FFFFFF;
   text-align: center;
 `
 export const IcoDesc = styled.div`
   position: relative;
-  font: 60px FTYIRONHORSENCV;
+  font: 60px FTY-IRONHORSE-NCV;
   color: #FFFFFF;
   text-align: center;
 `
 export const NameBeer = styled.h1`
   position: relative;
   margin-bottom: 15px;
-  font: 38px FTYIRONHORSENCV;
+  font: 38px FTY-IRONHORSE-NCV;
   color: #FFFFFF;
   
   @media(min-width: 300px) and (max-width: 1023px){
-    font: 42px FTYIRONHORSENCV;
+    font: 42px FTY-IRONHORSE-NCV;
   }
 `
 export const TextDesc = styled.div`
@@ -213,12 +226,12 @@ export const ImgPairing = styled.img`
   
   @media(min-width: 300px) and (max-width: 1023px){
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 `
 export const LabelPairing = styled.div`
   margin-top: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   font: 18px Lato-Bold;
   color: #FFFFFF;
   text-align: center;

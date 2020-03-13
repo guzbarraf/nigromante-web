@@ -2,7 +2,9 @@ import styled, {createGlobalStyle} from 'styled-components'
 
 export const GlobalStyleHome = createGlobalStyle`
   .home{
+    position: relative;
     contain: content;
+    overflow: hidden;
     @media(min-width: 1024px){
       contain: unset;
     }
@@ -183,15 +185,15 @@ export const ContImgMalt = styled.div`
     bottom: 30%;
   }
   @media(min-width: 1216px) and (max-width: 1407px){
-    width: 40%;
+    width: 35%;
     height: auto;
-    left: 70%;
+    left: 65%;
     bottom: 40%;
   }
   @media(min-width: 1408px){
-    width: 35%;
+    width: 32%;
     height: auto;
-    left: 70%;
+    left: 65%;
     bottom: 40%;
   }
 `

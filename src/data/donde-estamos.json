@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "La Mezcalerita",
+    "img": "mezcalerita.png",
+    "facebook": "https://www.facebook.com/lamezcalerita/",
+    "instagram": "https://www.instagram.com/lamezcaleritaoax/",
+    "twitter": "",
+    "desc": "Cervezas artesanales, mezcal, pulque natural y de sabores, vinos, hidromiel, licores oaxaqueños, Botanitas Oaxaqueñas",
+    "dir": "Calle Macedonio Alcalá 68000 Oaxaca de Juárez",
+    "maps": "https://www.google.com.mx/maps/@17.0682964,-96.7233124,3a,75y,103h,82.17t/data=!3m8!1e1!3m6!1sAF1QipPqv-mE9LDuer_2DTlweniM6TCQZTIYO4tT1qv5!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPqv-mE9LDuer_2DTlweniM6TCQZTIYO4tT1qv5%3Dw203-h100-k-no-pi-39.98515-ya188.50522-ro60.89244-fo100!7i5376!8i2688",
+    "status": 1
+  },{
+    "id": 2,
+    "name": "Zandunga Sabor Istmeño",
+    "img": "zandunga.png",
+    "web": "www.zandungasabor.com",
+    "facebook": "https://www.facebook.com/zandunga.restaurante/",
+    "instagram": "https://www.instagram.com/zandungasabor/",
+    "twitter": "https://twitter.com/Zandunga_Sabor",
+    "desc": "Zandunga Sabor Istmeño te ofrece platillos de antojo: garnachas, tamales de cambray, molotes de plátanos",
+    "dir": "Garcia Vigil 512E 68000 Oaxaca de Juárez",
+    "maps": "https://www.google.com.mx/maps/@17.0665767,-96.7246302,3a,90y,124.85h,84.84t/data=!3m6!1e1!3m4!1sQKjdgucBqfYRf283kZOaLA!2e0!7i13312!8i6656",
+    "status": 1
+  },{
+    "id": 3,
+    "name": "Berlina",
+    "img": "berlina.png",
+    "facebook": "https://www.facebook.com/BerlinaOaxaca/",
+    "instagram": "https://www.instagram.com/berlinaoaxaca/",
+    "twitter": "",
+    "desc": "Berlina es un restaurante de auténtica comida alemana ubicado en la ciudad de Oaxaca.",
+    "dir": "Macedonio Alcalá No. 403, planta alta 68000 Oaxaca de Juárez",
+    "maps": "https://www.google.com.mx/maps/@17.0650755,-96.7239469,3a,75y,253.47h,92.05t/data=!3m6!1e1!3m4!1sf8GO7ApDd4cEPzhCBRuQ0w!2e0!7i13312!8i6656",
+    "status": 1
+  },{
+    "id": 4,
+    "name": "Mezcalina Oaxaca",
+    "img": "mezcalina.png",
+    "facebook": "https://www.facebook.com/Mezcalina-Oaxaca-2434672376759676/",
+    "instagram": "https://www.instagram.com/mezcalinaoax/",
+    "twitter": "",
+    "desc": "Cocina fusión y mixologia con mezcal",
+    "dir": "Av. Jose Maria Morelos 701 68000 Oaxaca de Juárez",
+    "maps": "https://www.google.com.mx/maps/@17.0629011,-96.7247502,3a,75y,6.33h,92.62t/data=!3m6!1e1!3m4!1s1kfJFg00XlopIBAqJZTvjA!2e0!7i13312!8i6656",
+    "status": 1
+  },{
+    "id": 5,
+    "name": "Txalaparta Bar",
+    "img": "txalaparta.png",
+    "facebook": "https://www.facebook.com/txalapartabar/",
+    "instagram": "https://www.instagram.com/txalapartabar/",
+    "twitter": "https://twitter.com/Txalaparta_Bar",
+    "desc": "Música, djs, conciertos, variedad de cervezas, buen ambiente, buena comida en el día y snack bar en la noche",
+    "dir": "Maramoros 206 Colonia Centro 68000 Oaxaca de Juárez",
+    "maps": "www.google.com.mx/maps/@17.0640872,-96.7258366,3a,75y,216.51h,86.64t/data=!3m7!1e1!3m5!1sJ8xrS_ZvAD7H-kVN7mL0FA!2e0!6s%2F%2Fgeo1.ggpht.com%2Fcbk%3Fpanoid%3DJ8xrS_ZvAD7H-kVN7mL0FA%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D20.639055%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656",
+    "status": 1
+  },{
+    "id": 6,
+    "name": "Ancestral Cocina Tradicional",
+    "img": "ancestral.png",
+    "facebook": "https://www.facebook.com/AncestralOaxaca/",
+    "instagram": "https://www.instagram.com/ancestralcocinatradicional/",
+    "twitter": "",
+    "desc": "En Ancestral Cocina Tradicional trabajamos con la misión de provocar experiencias sensoriales agradables a través de la tradicional gastronomía oaxaqueña",
+    "dir": "José López Alavez 1347, Barrio de Xochimilco 68040 Oaxaca de Juárez",
+    "maps": "https://www.google.com.mx/maps/@17.0748398,-96.7235892,3a,75y,295.27h,85.33t/data=!3m6!1e1!3m4!1syBwvcDrr8AeONf0UbXLsWA!2e0!7i13312!8i6656",
+    "status": 1
+  },{
+    "id": 7,
+    "name": "The Beer Company Oaxaca",
+    "img": "beer-company.png",
+    "facebook": "https://www.facebook.com/The-beer-company-Oaxaca-123479311558129/",
+    "instagram": "https://www.instagram.com/",
+    "twitter": "",
+    "desc": "Venta y degustación de cerveza artesanal nacional e importada al alcance de tu bolsillo",
+    "dir": "Violetas 1005 Col.Reforma entre las calles Álamos y Naranjos 68050 Oaxaca de Juárez",
+    "maps": "https://www.google.com.mx/maps/@17.0794587,-96.7101812,3a,75y,88.35h,84.99t/data=!3m6!1e1!3m4!1sT62yowfq_HLd3BdfEEHjVA!2e0!7i13312!8i6656",
+    "status": 1
+  },{
+    "id": 8,
+    "name": "El Tendajón Agavería",
+    "img": "tendajon.png",
+    "facebook": "https://www.facebook.com/El-Tendajón-Agavería-970966993024313/",
+    "instagram": "https://www.instagram.com/eltendajon.agaveria/",
+    "twitter": "",
+    "desc": "Ven a probar nuestra Comilona y acompáñala con la amplia variedad de cervezas artesanales oaxaqueñas",
+    "dir": "Pino Suárez #409 68000 Oaxaca de Juárez",
+    "maps": "https://www.google.com.mx/maps/@17.0650902,-96.7197286,3a,75y,238.17h,83.66t/data=!3m6!1e1!3m4!1sv9kAJ2NAPceV_0VpTSZPvw!2e0!7i13312!8i6656",
+    "status": 1
+  }
+]
