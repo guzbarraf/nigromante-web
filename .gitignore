@@ -11,7 +11,11 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 .idea
-.idea/
+.idea/**
+.idea/misc.xml
+.idea/modules.xml
+.idea/nigromante-web.iml
+.idea/vcs.xml
 
 # User-specific stuff
 .idea/**/workspace.xml
