@@ -1,9 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Sitio web de Nigromante Brewing
+
+Nigromante Brewing es una cervecería artesanal situada en la ciudad de Oaxaca de Juárez Oax., México.
+
+/*
+ El sitio web no está terminado
+ */
+
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm run start`
+ó
 ### `yarn start`
 
 Runs the app in the development mode.<br />

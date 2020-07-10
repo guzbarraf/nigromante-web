@@ -18,7 +18,6 @@ export const HomeComp = () => {
         <Column isSize={{mobile: 12, desktop: "1/2" }}>
           <ContImgBeer>
             <ImgBeer src={Huna} />
-
           </ContImgBeer>
         </Column>
       </Columns>

@@ -11,7 +11,7 @@ export const Redes = props => (
         </ALinkFacebook>
       </ContRedesIcon>
       <ContRedesIcon>
-        <ALinkTwitter href="https://twitter.com/NigromanteBrewing" target="_blank">
+        <ALinkTwitter href="https://twitter.com/NigromanteBrew" target="_blank">
           <FontAwesomeIcon icon={faTwitter} />
         </ALinkTwitter>
       </ContRedesIcon>

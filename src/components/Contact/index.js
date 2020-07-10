@@ -14,10 +14,9 @@ var myEnv = dotenv.config()
 dotenvExpand(myEnv)
 
 const URL_API_CONTACT_FILE = process.env.REACT_APP_URL_API_CONTACT_FILE;
-console.log(`URL_API_CONTACT_FILE => ${URL_API_CONTACT_FILE}`);
+//console.log(`URL_API_CONTACT_FILE => ${URL_API_CONTACT_FILE}`);
 
 function useContacto(form, sendForm, objForm){
-  const [ contacto, setContacto ] = useState([])
   const [ sending, setSending ] = useState(false)
   const [ error, setError ] = useState(false)
   const [ showModal, setShowModal ] = useState(false)
@@ -108,7 +107,7 @@ function useContacto(form, sendForm, objForm){
             return res.json();
           }else{
             //console.log('Not Successful');
-            throw "Error en la llamada";
+            console.error("Error en la llamada");
           }
         })
         .then(function(data) {
@@ -123,7 +122,7 @@ function useContacto(form, sendForm, objForm){
     }
   }, [sendForm])
 
-  return { contacto, sending, error, showModal }
+  return { sending, error, showModal }
 }
 
 function fnModal(msg){
@@ -136,7 +135,7 @@ export const ContactComp = () => {
   const [ sendForm, setSendForm ] = useState(false)
   const [ objForm, setObjForm ] = useState([])
 
-  let { contacto, sending, error, showModal } = useContacto(form, sendForm, objForm)
+  let { sending, error, showModal } = useContacto(form, sendForm, objForm)
 
   const { value:name, bind:bindName, reset:resetName } = useInput('');
   const { value:email, bind:bindEmail, reset:resetEmail } = useInput('');

@@ -51,6 +51,37 @@ export const GlobalStyle = createGlobalStyle`
     overflow: unset !important;
   }
   
+  
+  
+  
+  .transition-group {
+    flex: 1;
+    position: relative;
+  }
+  
+  .router {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+    
+  .fade-enter {
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 350ms ease-in;
+  }
+
+  
+  
+  
+  
+  
   @media(min-width: 300px) and (max-width: 1024px){
     .columns {
       margin-left: 0 !important;

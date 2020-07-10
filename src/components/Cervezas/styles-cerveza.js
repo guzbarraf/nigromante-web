@@ -53,28 +53,45 @@ export const ContBeer = styled.div`
   position: relative;
   width: auto !important;
   max-width: none;
+  min-height: 609px;
   height: 100%;
   display: flex;
   justify-content: center;
   vertical-align: center;
   
-  @media(min-width: 300px) and (max-width: 1023px){
+  @media(min-width: 300px) and (max-width: 413px){
+    min-height: 484px;
+    justify-content: flex-end;
+  }
+  @media(min-width: 414px) and (max-width: 767px){
+    min-height: 538px;
+    justify-content: flex-end;
+  }
+  @media(min-width: 768px) and (max-width: 1023px){
     width: 100%;
+    min-height: 100%;
     height: 100%;
     padding-top: 20px;
     justify-content: flex-end;
   }
+  
+  @media(min-width: 1024px) and (max-width: 1999px){
+    min-height: 650px;
+  }
+  @media(min-width: 1200px) and (max-width: 3000px){
+    min-height: 800px;
+  }
 `
 
 export const ImgBeer = styled.img`
-  width: 80%;
+  width: 87%;
   height: auto;
   
   @media(min-width: 300px) and (max-width: 767px){
     width: 70%;
     height: 70%;
   }
-  @media(min-width: 768px) and (max-width: 1024px){
+  @media(min-width: 768px) and (max-width: 1023px){
     width: 50%;
     height: 50%;
   }
@@ -219,6 +236,20 @@ export const BeerTastingText = styled.div`
   font: 18px Lato-Bold;
   color: #FFFFFF;
   text-align: left;
+`
+export const ContPairing = styled.div`
+  position: relative;
+  width: 100% !important;
+  max-width: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  
+  @media(min-width: 300px) and (max-width: 3000px){
+    width: 100%;
+    height: 100%;
+  }
 `
 export const ImgPairing = styled.img`
   width: 100%;

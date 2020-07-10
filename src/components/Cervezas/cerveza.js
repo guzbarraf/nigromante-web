@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Columns, Column } from 'bloomer';
-import { GlobalStyleCerveza, ContBeer, ImgBeer, TitleBeer, LabelTitle, IcoDesc, NameBeer, TextDesc, BeerDetails, BeerDetailsLabel, BeerDetailsText, BeerDetailsTextGlass, BeerDetailsAvailable, ContImgAvailable, ContImgGlass, ImgAvailable, ImgGlass, BeerTastingLabel, BeerTastingText, ImgPairing,LabelPairing, LabelNumberBeer } from './styles-cerveza';
+import { GlobalStyleCerveza, ContBeer, ImgBeer, TitleBeer, LabelTitle, IcoDesc, NameBeer, TextDesc, BeerDetails, BeerDetailsLabel, BeerDetailsText, BeerDetailsTextGlass, BeerDetailsAvailable, ContImgAvailable, ContImgGlass, ImgAvailable, ImgGlass, BeerTastingLabel, BeerTastingText, ContPairing, ImgPairing, LabelPairing, LabelNumberBeer } from './styles-cerveza';
 import { SlideItemComp } from '../SlideItems'
 
 const useBeerData = (idBeer) => {
@@ -95,16 +95,16 @@ export const CervezaComp = ( { idBeer } ) => {
 
 
 
-  const renderRailing = () => (
+  const renderPairing = () => (
     <Columns isCentered isMultiline>
       {
         loading
           ? <div></div>
           : pairing.map((p, i) =>
             <Column isSize={{mobile: 6, tablet: 4, desktop: 4 }} key={i}>
-              <ContBeer>
+              <ContPairing>
                 <ImgPairing src={require(`../../assets/beers/pairing/${p.img}`)} alt={`${p.name}`}/>
-              </ContBeer>
+              </ContPairing>
               <LabelPairing>{ p.name }</LabelPairing>
             </Column>
           )
@@ -222,7 +222,7 @@ export const CervezaComp = ( { idBeer } ) => {
       </Columns>
 
       <div>
-        { renderRailing() }
+        { renderPairing() }
       </div>
 
 
