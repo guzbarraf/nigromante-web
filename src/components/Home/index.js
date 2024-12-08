@@ -12,7 +12,7 @@ export const HomeComp = () => {
       <Columns className="cont-home" isVCentered>
         <Column isSize={{mobile: 12, desktop: "1/2" }} className="overflow-unset">
           <ContLema>
-            Y regresarán a la vida después de probar nuestra cerveza
+            Y regresarán a la vida después de probar nuestra cerveza.
           </ContLema>
         </Column>
         <Column isSize={{mobile: 12, desktop: "1/2" }}>
